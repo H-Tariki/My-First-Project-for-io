@@ -2,10 +2,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Web</title>
     <link rel="stylesheet" href="./output.css">
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    
+    <div id="body-cards-container" class="w-full flex justify-center">
+        <div id="cards" class="grid grid-cols-12 w-full gap-7 container">
+            <!-- card1 -->
+            <div id="card-1" class="col-span-12 min-[200px]:col-span-12 min-[400px]:col-span-6
+             min-[800px]:col-span-4 h-[500px] min-[1200px]:col-span-3 rounded-xl border border-gray-300
+            shadow-2xl relative">
+            <!-- code -->
+                <img src="../images/flower.jpg" alt="flower" class="w-full h-[50%] rounded-t-xl">
+                <div id="card-text" class="flex flex-col mx-4 mt-4">
+                    <h1 class="font-bold mt-2">this is a test</h1>
+                    <p class="text-justify mt-3 max-h-[150px] text-lg min-[200px]:text-base min-[319px]:text-base min-[400px]:text-sm min-[570px]:text-base
+                      min-[800px]:text-sm min-[1024px]:text-base min-[1200px]:text-sm min-[1280px]:text-base">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis porro nam veniam soluta eum veritatis corporis,
+                        enim mollitia omnis distinctio dignissimos.
+                    </p>
+                </div>
+                <input id="card-button1" type="button" value="add to" class="border border-gray-500 rounded-lg px-6 py-1 cursor-pointer
+                 hover:bg-red-400 hover:text-white absolute bottom-3 left-3 click">
+            </div>
+            <!-- card2 -->
+            <div id="card-2" class="col-span-12 min-[200px]:col-span-12 min-[400px]:col-span-6
+             min-[800px]:col-span-4 h-[500px] min-[1200px]:col-span-3 rounded-xl border border-gray-300
+            shadow-2xl relative">
+            <!-- code -->
+                <img src="../images/flower.jpg" alt="flower" class="w-full h-[50%] rounded-t-xl">
+                <div id="card-text" class="flex flex-col mx-4 mt-4">
+                    <h1 class="font-bold mt-2">this is a test</h1>
+                    <p class="text-justify mt-3 text-lg min-[200px]:text-base min-[319px]:text-base min-[400px]:text-sm min-[570px]:text-base
+                      min-[800px]:text-sm min-[1024px]:text-base min-[1200px]:text-sm min-[1280px]:text-base">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis porro nam veniam soluta eum veritatis corporis,
+                        enim mollitia omnis distinctio dignissimos.
+                    </p>
+                </div>
+                <input type="button" value="add to" class="border border-gray-500 rounded-lg px-6 py-1 cursor-pointer
+                 hover:bg-red-400 hover:text-white absolute bottom-3 left-3 click">
+            </div>
+            <!-- card3 -->
+            <div id="card-3" class="col-span-12 min-[200px]:col-span-12 min-[400px]:col-span-6
+             min-[800px]:col-span-4 h-[500px] min-[1200px]:col-span-3 rounded-xl border border-gray-300
+            shadow-2xl relative">
+            <!-- code -->
+                <img src="../images/flower.jpg" alt="flower" class="w-full h-[50%] rounded-t-xl">
+                <div id="card-text" class="flex flex-col mx-4 mt-4">
+                    <h1 class="font-bold mt-2">this is a test</h1>
+                    <p class="text-justify mt-3 text-lg min-[200px]:text-base min-[319px]:text-base min-[400px]:text-sm min-[570px]:text-base
+                     min-[800px]:text-sm min-[1024px]:text-base min-[1200px]:text-sm min-[1280px]:text-base">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis porro nam veniam soluta eum veritatis corporis,
+                        enim mollitia omnis distinctio dignissimos.
+                    </p>
+                </div>
+                <input type="button" value="add to" class="border border-gray-500 rounded-lg px-6 py-1 cursor-pointer
+                 hover:bg-red-400 hover:text-white absolute bottom-3 left-3 click">
+            </div>
+            <!-- card4 -->
+            <div id="card-4" class="col-span-12 min-[200px]:col-span-12 min-[400px]:col-span-6
+             min-[800px]:col-span-4 h-[500px] min-[1200px]:col-span-3 rounded-xl border border-gray-300
+            shadow-2xl relative">
+            <!-- code -->
+                <img src="../images/flower.jpg" alt="flower" class="w-full h-[50%] rounded-t-xl">
+                <div id="card-text" class="flex flex-col mx-4 mt-4">
+                    <h1 class="font-bold mt-2">this is a test</h1>
+                    <p class="text-justify mt-3 text-lg min-[200px]:text-base min-[319px]:text-base min-[400px]:text-sm min-[570px]:text-base
+                     min-[800px]:text-sm min-[1024px]:text-base min-[1200px]:text-sm min-[1280px]:text-base">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis porro nam veniam soluta eum veritatis corporis,
+                        enim mollitia omnis distinctio dignissimos.
+                    </p>
+                </div>
+                <input type="button" value="add to" class="border border-gray-500 rounded-lg px-6 py-1 cursor-pointer
+                 hover:bg-red-400 hover:text-white absolute bottom-3 left-3 click">
+            </div>
+        </div>
+    </div>
+
+    <div id="succes-message" class="flex justify-center items-center w-full h-[600px] hidden px-5">
+        <div id="succes-box" class="w-full min-[600px]:w-[70%] min-[800px]:w-[50%] min-[1000px]:w-[40%] min-[1400px]:w-[3\0%] h-[50%] bg-blue-200 flex flex-col justify-center items-center rounded-lg shadow-2xl">
+            <p class="font-bold text-red-600">Your order has been successfully placed</p>
+            <button id="return-home" class="border border-gray-600 px-3 py-1 mt-10 rounded-lg cursor-pointer hover:bg-red-500 hover:text-white shadow-lg text-red-600">Click to return home</button>
+        </div>
+    </div>
 </body>
 </html>
